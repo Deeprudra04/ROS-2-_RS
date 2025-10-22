@@ -1,7 +1,6 @@
 # 🧠 Installation Guide: Ubuntu 22.04.5 LTS, ROS 2 (Humble Hawksbill), and Ignition Fortress (Gazebo) 🛠
 
-Welcome to the **ROS 2 Installation Guide** — a comprehensive step-by-step tutorial to set up **Ubuntu 22.04.5 LTS (Jammy Jellyfish)**, **ROS 2**, **Nav2**, **MoveIt 2**, and **Ignition Fortress (Gazebo)** for robotics development. This guide is tailored for the **eYRC Theme** and general ROS 2 projects, ensuring a stable and efficient environment.
-
+Welcome to the **ROS 2 Installation Guide** — a comprehensive step-by-step tutorial to set up **Ubuntu 22.04.5 LTS (Jammy Jellyfish)**, **ROS 2** and **Ignition Fortress (Gazebo)** for robotics development.
 ---
 
 ## ⚙️ Minimum System Requirements
