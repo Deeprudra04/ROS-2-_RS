@@ -39,7 +39,19 @@ To install Ubuntu Desktop, you need to **write the downloaded ISO file** to a US
 
 ---
 
-## 🖥️ Step 3: Boot from the USB Drive
+## 🖥️ Step 3: Prepare for Dual-Boot (Windows Users)
+
+For dual-boot with Windows, prepare an **unallocated disk section** of at least **50 GB** for Ubuntu:  
+1. Open **Disk Management** in Windows (right-click Start menu > Disk Management).  
+2. Select a partition with sufficient free space, right-click, and choose **Shrink Volume**.  
+3. Enter at least **50,000 MB** (50 GB) to create unallocated space.  
+4. Leave this unallocated space for Ubuntu to use during installation.
+
+> ⚠️ **Warning:** Be cautious when modifying partitions. Back up important data before proceeding. If you face issues, report them in the repository for assistance—do not make decisions if unsure.
+> 
+---
+
+## 🖥️ Step 4: Boot from the USB Drive
 
 1. Insert the bootable USB into your PC or laptop.  
 2. Restart your system and press **F12** during startup to open the boot menu.  
@@ -49,7 +61,7 @@ To install Ubuntu Desktop, you need to **write the downloaded ISO file** to a US
 
 ---
 
-## ⌨️ Step 4: Choose Installation Settings
+## ⌨️ Step 5: Choose Installation Settings
 
 - Select your **keyboard layout**.  
 - Choose **Normal Installation** and check:
@@ -58,12 +70,12 @@ To install Ubuntu Desktop, you need to **write the downloaded ISO file** to a US
 
 ---
 
-## 💾 Step 5: Disk Partitioning
+## 💾 Step 6: Disk Partitioning
 
 Choose one of the following:
 
 - **Erase Disk and Install Ubuntu** → for a fresh install.  
-- **Install Ubuntu Alongside Windows** → for **dual boot** setup (recommended).  
+- **Install Ubuntu Alongside Windows** → for **dual boot** setup (recomended).  
 - **Something Else** → for manual/custom partitions (advanced users).
 
 > ⚠️ **Warning:** “Erase Disk” will permanently delete all data.  
@@ -71,14 +83,14 @@ Choose one of the following:
 
 ---
 
-## 🌍 Step 6: Set Location and User Details
+## 🌍 Step 7: Set Location and User Details
 
 - Set your **timezone**, **username**, and **password**.  
 - These credentials will be needed to log in and run system commands.
 
 ---
 
-## ☕ Step 7: Relax and Let Ubuntu Install
+## ☕ Step 8: Relax and Let Ubuntu Install
 
 Sit back and let the installation process complete. Once finished, **remove the USB stick** when prompted and restart your computer.
 
@@ -95,7 +107,7 @@ If you’re setting up a **dual-boot** system, watch this detailed walkthrough:
 
 ---
 
-## 🤖 Step 8: Install ROS 2 (Humble Hawksbill)
+## 🤖 Step 9: Install ROS 2 (Humble Hawksbill)
 
 ### What is ROS 2?
 
